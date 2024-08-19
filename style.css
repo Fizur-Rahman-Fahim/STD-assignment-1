@@ -1,0 +1,732 @@
+@media only screen and (min-width: 1024px){
+    *{
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    nav img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        align-items: center;
+        display: flex;
+    }
+    nav ul li{
+        margin-right: 20px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .banner-txt{
+        margin: 5%;
+    }
+    .banner-txt h1{
+        color: aqua;
+    }
+    .banner-photo{
+        margin: 5%;
+        display: flex;
+        justify-content: end;
+    }
+    .banner-photo img{
+        width: 50%;
+        height: 60%;
+    }
+    
+    .portfolio{
+        align-items: center;
+    }
+    .portfolio h1{
+    text-align: center;
+    margin: 4%;
+    }
+    .carosel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.354);
+        padding: 2%;
+        margin:  0 15% ;
+    }
+    .carosel-container{
+        width: 125%;
+        height: 100%;
+    }
+    .carosel-txt{
+        margin: 5%;
+    }
+    .slider{
+        border: 1px solid rgba(255, 255, 255, 0.376);
+        margin: 5% 15%;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-container{
+        width: 125%;
+        height: 100%;
+    }
+    .slider-txt{
+        margin: 5%;
+    }
+    .portfolio ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    .portfolio li{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: rgb(118, 115, 115);
+    }
+    .portfolio h3{
+        color: aqua;
+    }
+    .hedding{
+        display: flex;
+        align-items: center;
+    }
+    .hedding img{
+        margin: 1%;
+    }
+    
+    .skills {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .education{
+        align-items: center;
+        text-align: center;
+    }
+    .education h1{
+        color: aqua;
+    }
+    
+    .experties ul{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .language h3{
+        margin: 5%;
+    }
+    .experties li{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        margin: 1%;
+        padding: 1%;
+        background-color: rgb(118, 115, 115);
+    }
+    
+    
+    .contact-section h2{
+        margin-top: 1%;
+        text-align: center;
+    }
+    .contact-container{
+        margin-top: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        margin-top: 2%;
+        border: 1px solid rgba(255, 255, 255, 0.298);
+        padding: 30px;
+        width: 40%;
+        height: 40%;
+        box-shadow: 7px 7px 2px rgba(252, 252, 252, 0.2);
+        align-items: center;
+        
+    }
+    .contact input{
+        background-color: black;
+        margin-left: 20%;
+    }
+    .contact textarea{
+        background-color: black;
+        margin-left: 8%;
+    }
+    .contact ::placeholder{
+        color: rgba(255, 255, 255, 0.305);
+    }
+    .contact button{
+        background-color: rgb(52, 51, 69);
+        border: transparent;
+    }
+    footer{
+        margin-top: 3%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.327);
+        height: 15%;
+    }
+    
+    .footer-txt{
+        align-items: center;    
+        display: flex;
+        justify-content: center;
+    }
+    .footer-txt p{
+        margin: 0;
+    }
+    .footer-txt i{
+        margin: 0 10px;
+    }
+    .bar{
+        font-size: 1.3rem;
+        margin: 0 10px;
+    }
+    .footer-icon i{
+        margin: 0 10px;
+        color: aqua;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+    
+    .btn-banner{
+        display: inline;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.58);
+        padding: 0 5px;
+    }
+    
+    .btn-banner a{
+        color: white;
+        background-color: transparent;
+    }
+    .btn-banner i{
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        color: black;
+    }
+    .btn-banner:hover{
+        cursor: pointer;
+        background-color: rgba(0, 255, 255, 0.8);
+        color: white;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and ( max-width: 1023px )
+{
+    *{
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    nav img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        align-items: center;
+        display: flex;
+    }
+    nav ul li{
+        margin-right: 20px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .banner-txt{
+        margin: 5%;
+    }
+    .banner-txt h1{
+        color: aqua;
+    }
+    .banner-photo{
+        margin: 5%;
+        display: flex;
+        justify-content: end;
+    }
+    .banner-photo img{
+        width: 50%;
+        height: 60%;
+    }
+    
+    .portfolio{
+        align-items: center;
+    }
+    .portfolio h1{
+    text-align: center;
+    margin: 4%;
+    }
+    .carosel{
+        border: 1px solid rgba(255, 255, 255, 0.354);
+        padding: 2%;
+        margin:  0 15% ;
+    }
+    .carosel-container{
+        width: 100%;
+        height: 100%;
+    }
+    .carosel-txt{
+        margin: 5%;
+    }
+    .slider{
+        border: 1px solid rgba(255, 255, 255, 0.376);
+        margin: 5% 15%;
+        padding: 2%;
+    }
+    .slider-container{
+        width: 100%;
+        height: 100%;
+    }
+    .slider-txt{
+        margin: 5%;
+    }
+    .portfolio ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    .portfolio li{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: rgb(118, 115, 115);
+    }
+    .portfolio h3{
+        color: aqua;
+    }
+    .hedding{
+        display: flex;
+        align-items: center;
+    }
+    .hedding img{
+        margin: 1%;
+    }
+    
+    .skills {
+        margin-top: 5%;
+    }
+    
+    .education{
+        margin: 10% 0;
+        align-items: center;
+        text-align: center;
+    }
+    .education h1{
+        color: aqua;
+    }
+    
+    .experties ul{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .language h3{
+        margin: 5%;
+    }
+    .experties li{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        margin: 1%;
+        padding: 1%;
+        background-color: rgb(118, 115, 115);
+    }
+    
+    
+    .contact-section h2{
+        margin-top: 1%;
+        text-align: center;
+    }
+    .contact-container{
+        margin-top: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        margin-top: 2%;
+        border: 1px solid rgba(255, 255, 255, 0.298);
+        padding: 30px;
+        width: 40%;
+        height: 40%;
+        box-shadow: 7px 7px 2px rgba(252, 252, 252, 0.2);
+        align-items: center;
+        
+    }
+    .contact input{
+        background-color: black;
+        margin-left: 20%;
+    }
+    .contact textarea{
+        background-color: black;
+        margin-left: 8%;
+    }
+    .contact ::placeholder{
+        color: rgba(255, 255, 255, 0.305);
+    }
+    .contact button{
+        background-color: rgb(52, 51, 69);
+        border: transparent;
+    }
+    footer{
+        margin-top: 3%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.327);
+        height: 15%;
+    }
+    
+    .footer-txt{
+        align-items: center;    
+        display: flex;
+        justify-content: center;
+    }
+    .footer-txt p{
+        margin: 0;
+    }
+    .footer-txt i{
+        margin: 0 10px;
+    }
+    .bar{
+        font-size: 1.3rem;
+        margin: 0 10px;
+    }
+    .footer-icon i{
+        margin: 0 10px;
+        color: aqua;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+    
+    .btn-banner{
+        display: inline;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.58);
+        padding: 0 5px;
+    }
+    
+    .btn-banner a{
+        color: white;
+        background-color: transparent;
+    }
+    .btn-banner i{
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        color: black;
+    }
+    .btn-banner:hover{
+        cursor: pointer;
+        background-color: rgba(0, 255, 255, 0.8);
+        color: white;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 767px)
+{
+    *{
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    
+    nav img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        align-items: center;
+        display: flex;
+        margin: 0 0 6px;
+        padding: 0 0 6px;
+    }
+    nav ul li{
+        margin-right: 5px;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: small;
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .banner-txt{
+        margin: 5%;
+    }
+    .banner-txt h1{
+        color: aqua;
+    }
+    .banner-photo{
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-photo img{
+        width: 50%;
+        height: 60%;
+    }
+    
+    .portfolio{
+        align-items: center;
+    }
+    .portfolio h1{
+    text-align: center;
+    margin: 4%;
+    }
+    .carosel{
+        border: 1px solid rgba(255, 255, 255, 0.354);
+        padding: 2%;
+        margin:  0 15% ;
+    }
+    .carosel-container{
+        width: 100%;
+        height: 100%;
+    }
+    .carosel-txt{
+        margin: 5%;
+    }
+    .slider{
+        border: 1px solid rgba(255, 255, 255, 0.376);
+        margin: 5% 15%;
+        padding: 2%;
+    }
+    .slider-container{
+        width: 100%;
+        height: 100%;
+    }
+    .slider-txt{
+        margin: 5%;
+    }
+    .portfolio ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    .portfolio li{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: rgb(118, 115, 115);
+    }
+    .portfolio h3{
+        color: aqua;
+    }
+    .hedding{
+        display: flex;
+        align-items: center;
+    }
+    .hedding img{
+        margin: 1%;
+    }
+    
+    .skills {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .education{
+        margin: 10% 0;
+        align-items: center;
+        text-align: center;
+    }
+    .education h1{
+        color: aqua;
+    }
+    
+    .experties ul{
+        display: flexbox;
+        list-style-type: none;
+    }
+    
+    .language h3{
+        margin: 5%;
+    }
+    .experties li{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        margin: 1%;
+        padding: 1%;
+        background-color: rgb(118, 115, 115);
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contact-section h2{
+        margin-top: 1%;
+        text-align: center;
+    }
+    .contact-container{
+        margin: 20px 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        margin-top: 2%;
+        border: 1px solid rgba(255, 255, 255, 0.298);
+        padding: 30px;
+        width: 60%;
+        height: 40%;
+        box-shadow: 7px 7px 2px rgba(252, 252, 252, 0.2);
+        align-items: center;
+        
+    }
+    .contact input{
+        background-color: black;
+        margin-left: 20%;
+    }
+    .contact textarea{
+        background-color: black;
+        margin-left: 8%;
+    }
+    .contact ::placeholder{
+        color: rgba(255, 255, 255, 0.305);
+    }
+    .contact button{
+        background-color: rgb(52, 51, 69);
+        border: transparent;
+    }
+    footer{
+        margin-top: 3%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.327);
+        height: 15%;
+    }
+    
+    .footer-txt{
+        align-items: center;    
+        display: flex;
+        justify-content: center;
+    }
+    .footer-txt p{
+        margin: 0;
+    }
+    .footer-txt i{
+        margin: 0 10px;
+    }
+    .bar{
+        font-size: 1.3rem;
+        margin: 0 10px;
+    }
+    .footer-icon i{
+        margin: 0 10px;
+        color: aqua;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+    
+
+    .btn-banner-container{
+        margin: 0;
+    }
+    .btn-banner{
+        display: inline;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.58);
+        padding: 0px;
+    }
+    
+    .btn-banner a{
+        color: white;
+        background-color: transparent;
+    }
+    .btn-banner i{
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        color: black;
+    }
+    .btn-banner:hover{
+        cursor: pointer;
+        background-color: rgba(0, 255, 255, 0.8);
+        color: white;
+    }
+
+    
+}
